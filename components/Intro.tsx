@@ -64,8 +64,10 @@ export default function Intro() {
         <span className="font-bold">Hello,</span> <span>My name is</span>
         <span className="font-bold"> Rayen.</span> I&apos;m a{" "}
         <span className="font-bold">Software Engineer</span> from Tunisia. I
-        enjoy building <span>Websites & Apps</span>. My focus is on Full-Stack{" "}
-        <span className="underline">JavaScript Frameworks</span>.
+        enjoy building{" "}
+        <span>Websites and deploy them in the Cloud.</span>
+        {/* My focus is on Full-Stack{" "}
+        <span className="underline">JavaScript Frameworks</span>. */}
       </motion.h1>
 
       <motion.div
@@ -87,9 +89,9 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        
+
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -98,31 +100,30 @@ export default function Intro() {
         </a>
 
         <div className="flex flex-row gap-2 sm:flex-row items-center">
-        <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
-          href="https://www.linkedin.com/in/rayen-rakkad/"
-          target="_blank"
-        >
-          <BsLinkedin />
-        </a>
+          <a
+            className="bg-white p-4 text-gray-700 hover:text-gray-950 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://linkedin.com/in/rayen-rakkad"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-          href="https://github.com/RayenRk"
-          target="_blank"
-        >
-          <FaGithubSquare />
-        </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://github.com/RayenRk"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
 
-        <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
-          href="https://www.behance.net/rayenrakkad"
-          target="_blank"
-        >
-          <FaBehanceSquare />
-        </a>
+          <a
+            className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://www.behance.net/rayenrakkad"
+            target="_blank"
+          >
+            <FaBehanceSquare />
+          </a>
         </div>
-
       </motion.div>
     </section>
   );

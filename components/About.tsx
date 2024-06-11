@@ -11,31 +11,33 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-0 scroll-mt-28"
+      className="mb-28 max-w-[50rem] text-center leading-8 sm:mb-0 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+      <p >
+        I am a dedicated Software Engineer with a passion for transforming
+        concepts into dynamic Software solutions. My journey began in Data
+        Analysis, but I quickly gravitated towards web and mobile development,
+        where I&apos;ve mastered both front-end and back-end technologies to
+        build responsive and engaging applications..{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        problem-solving aspect, I <span className="underline">love</span> the
+        feeling of finally figuring out a solution to a problem.
+      </p>{" "}
+      <p className="mb-3">
+        {" "}
+        <br /> My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Angular, Next.js, Node.js, MongoDB, and MySQL
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am also familiar with Cloud Computing, Network, DevOps, and Linux. I
+        am always looking to learn new technologies. I am currently looking for
+        a <span className="font-medium">Internship position.</span>
       </p>
-
       {/* <p>
         <span className="italic">When I am not coding</span>, I enjoy playing
         video games, watching movies, and playing with my dog. I also enjoy{" "}

@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "Rigma",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Rigma is a collaborative design tool. It enables real-time teamwork with live cursors, shapes, and text.",
     tags: ["Next.js", "TypeScript", "React", "Liveblocks", "Fabric.js", "Tailwind CSS", "Vercel"],
     imageUrl: rigmaImg,
   },
@@ -79,7 +79,7 @@ export const projectsData = [
   {
     title: "Kanban Board",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "The Kanban Board App organizes tasks visually, following the Kanban methodology. Ideal for personal projects or team collaboration.",
     tags: ["Angular 17", "TypeScript", "Node.js", "Express", "MongoDB", "Mongoose", "Tailwind CSS"],
     imageUrl: kanbanboardImg,
   },

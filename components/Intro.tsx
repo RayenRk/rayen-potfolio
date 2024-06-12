@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold"> Rayen.</span> I&apos;m a{" "}
         <span className="font-bold">Software Engineer</span> from Tunisia. I
         enjoy building{" "}
-        <span>Websites and deploy them in the Cloud.</span>
+        <span>websites and deploy them in the Cloud.</span>
         {/* My focus is on Full-Stack{" "}
         <span className="underline">JavaScript Frameworks</span>. */}
       </motion.h1>
@@ -95,7 +95,7 @@ export default function Intro() {
           href="/Rayen_Rakkad_Software_Engineer_Resume.pdf"
           download
         >
-          Download CV{" "}
+          Download my CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

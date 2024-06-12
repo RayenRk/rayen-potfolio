@@ -18,24 +18,26 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p >
+      <p>
         I am a dedicated Software Engineer with a passion for transforming
-        concepts into dynamic Software solutions. My journey began in Data
+        concepts into dynamic solutions. My journey began in Data
         Analysis, but I quickly gravitated towards web and mobile development,
-        where I&apos;ve mastered both front-end and back-end technologies to
-        build responsive and engaging applications..{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect, I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem.
+        where I&apos;ve explored both{" "}
+        <span className="font-medium">front-end</span> and{" "}
+        <span className="font-medium">back-end</span> technologies to build
+        responsive and engaging applications.{" "}
+        My favorite part of programming is the
+        problem-solving aspect, I love the feeling of finally figuring out a
+        solution to a problem.
       </p>{" "}
       <p className="mb-3">
         {" "}
         <br /> My core stack is{" "}
         <span className="font-medium">
-          Angular, Next.js, Node.js, MongoDB, and MySQL
+          Angular, Node.js, Express, and MongoDB
         </span>
         . I am also familiar with Cloud Computing, Network, DevOps, and Linux. I
-        am always looking to learn new technologies. I am currently looking for
+        am always looking to learn new technologies. And I am currently looking for
         a <span className="font-medium">Internship position.</span>
       </p>
       {/* <p>

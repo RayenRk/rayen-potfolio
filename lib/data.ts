@@ -23,10 +23,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -65,8 +65,9 @@ export const projectsData = [
     title: "Rbnb",
     description:
     "This full-stack Airbnb clone delivers a scalable, secure, and seamless web experience. Users can easily search and book tenants.",
-    tags: ["Angular 17", "TypeScript", "Spring Boot 3", "PostgreSQL", "Docker", "Auth0", "PrimeNG"],
+    tags: ["Angular 17", "TypeScript", "Spring Boot", "PostgreSQL", "Docker", "Auth0", "PrimeNG"],
     imageUrl: rbnbImg,
+    link:"https://github.com/RayenRk/airbnb-clone",
   },
   {
     title: "Rigma",
@@ -74,14 +75,16 @@ export const projectsData = [
       "Rigma is a collaborative design tool. It enables real-time teamwork with live cursors, shapes, and text.",
     tags: ["Next.js", "TypeScript", "React", "Liveblocks", "Fabric.js", "Tailwind CSS", "Vercel"],
     imageUrl: rigmaImg,
+    link:"https://rigma-tau.vercel.app/",
   },
 
   {
-    title: "Kanban Board",
+    title: "Kanban",
     description:
       "The Kanban Board App organizes tasks visually, following the Kanban methodology. Ideal for personal projects or team collaboration.",
     tags: ["Angular 17", "TypeScript", "Node.js", "Express", "MongoDB", "Mongoose", "Tailwind CSS"],
     imageUrl: kanbanboardImg,
+    link:"https://github.com/RayenRk/kanban-project",
   },
 ] as const;
 

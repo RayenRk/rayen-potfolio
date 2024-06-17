@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import kanbanboardImg from "@/public/kanbanboard.png";
 import rigmaImg from "@/public/rigma.png";
 import rbnbImg from "@/public/rbnb.png";
+import chatupImg from "@/public/chatup.png";
 
 export const links = [
   {
@@ -86,6 +87,16 @@ export const projectsData = [
     imageUrl: kanbanboardImg,
     link:"https://github.com/RayenRk/kanban-project",
   },
+
+  {
+    title: "Chatup",
+    description:
+      "Chatup is a real-time chat application that allows users to create chat rooms for group or 1-on-1 conversations.",
+    tags: ["Next.js", "TypeScript","Tailwind CSS", "Convex", "Clerk", "ShadCN"],
+    imageUrl: chatupImg,
+    link:"https://chatup-eosin.vercel.app/",
+  },
+
 ] as const;
 
 export const skillsData = [

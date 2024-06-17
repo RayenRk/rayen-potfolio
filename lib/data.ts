@@ -92,7 +92,7 @@ export const projectsData = [
     title: "Chatup",
     description:
       "Chatup is a real-time chat application that allows users to create chat rooms for group or 1-on-1 conversations.",
-    tags: ["Next.js", "TypeScript","Tailwind CSS", "Convex", "Clerk", "ShadCN"],
+    tags: ["Next.js", "TypeScript","Tailwind CSS", "Convex", "Clerk", "ShadCN", "Vercel"],
     imageUrl: chatupImg,
     link:"https://chatup-eosin.vercel.app/",
   },

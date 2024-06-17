@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold"> Rayen.</span> I&apos;m a{" "}
         <span className="font-bold">Software Engineer</span> from Tunisia. I
         enjoy building{" "}
-        <span>websites and deploy them in the Cloud.</span>
+        <span>solutions and deploy them in the Cloud.</span>
         {/* My focus is on Full-Stack{" "}
         <span className="underline">JavaScript Frameworks</span>. */}
       </motion.h1>

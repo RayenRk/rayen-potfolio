@@ -121,7 +121,6 @@ export const skillsData = [
   "MongoDB",
   "MySQL",
   "PostgreSQL",
-  "Express",
   "Terraform",
   "Ansible",
   "Kubernetes",
